@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @{
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   */
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 2
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 2
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** /** @defgroup PWREx PWREx
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** /* Private macro -------------------------------------------------------------*/
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** /* Private variables ---------------------------------------------------------*/
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 3
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 3
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** /* Private function prototypes -----------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  122:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     {
  123:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       /* PWR_CR5_R1MODE bit set means that Range 1 Boost is disabled */
  124:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       return PWR_REGULATOR_VOLTAGE_SCALE1;
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 4
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 4
 
 
  125:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  157:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        some devices, the system frequency can be increased up to 120 MHz.
  158:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @note  When moving from Range 2 to Range 1, the API waits for VOSF flag to be
  159:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        cleared before returning the status. If the flag is not cleared within
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 5
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 5
 
 
  160:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        50 microseconds, HAL_TIMEOUT status is reported.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  195:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       /* Enable Range 1 Boost (no issue if bit already reset) */
  196:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       CLEAR_BIT(PWR->CR5, PWR_CR5_R1MODE);
   91              		.loc 1 196 7 is_stmt 1 view .LVU17
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 6
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 6
 
 
   92 0012 3B4A     		ldr	r2, .L23
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  247:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       wait_loop_index = ((PWR_FLAG_SETTING_DELAY_US * SystemCoreClock) / 1000000U) + 1U;
  248:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       while ((HAL_IS_BIT_SET(PWR->SR2, PWR_SR2_VOSF)) && (wait_loop_index != 0U))
  249:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       {
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 7
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 7
 
 
  250:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****         wait_loop_index--;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  124 0050 0133     		adds	r3, r3, #1
  125              	.LVL3:
  183:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       {
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 8
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 8
 
 
  126              		.loc 1 183 7 is_stmt 1 view .LVU26
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  166              		.loc 1 231 5 is_stmt 1 view .LVU42
  167 0078 214A     		ldr	r2, .L23
  168 007a 1368     		ldr	r3, [r2]
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 9
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 9
 
 
  169 007c 23F4C063 		bic	r3, r3, #1536
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  211:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       while ((HAL_IS_BIT_SET(PWR->SR2, PWR_SR2_VOSF)) && (wait_loop_index != 0U))
  215              		.loc 1 211 72 view .LVU55
  216 00ce 0E4A     		ldr	r2, .L23+8
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 10
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 10
 
 
  217 00d0 A2FB0323 		umull	r2, r3, r2, r3
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  189:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       }
  258              		.loc 1 189 16 view .LVU71
  259 00f8 0320     		movs	r0, #3
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 11
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 11
 
 
  260              	.LVL17:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  296 0000 054A     		ldr	r2, .L26
  297 0002 D368     		ldr	r3, [r2, #12]
  298 0004 23F40073 		bic	r3, r3, #512
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 12
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 12
 
 
  299 0008 0343     		orrs	r3, r3, r0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  342              		.section	.text.HAL_PWREx_EnableVddUSB,"ax",%progbits
  343              		.align	1
  344              		.global	HAL_PWREx_EnableVddUSB
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 13
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 13
 
 
  345              		.syntax unified
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  382              		@ frame_needed = 0, uses_anonymous_args = 0
  383              		@ link register save eliminated.
  322:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   CLEAR_BIT(PWR->CR2, PWR_CR2_USV);
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 14
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 14
 
 
  384              		.loc 1 322 3 view .LVU87
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  428              		.global	HAL_PWREx_DisableVddIO2
  429              		.syntax unified
  430              		.thumb
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 15
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 15
 
 
  431              		.thumb_func
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  468              		.loc 1 355 3 view .LVU96
  469 0000 024A     		ldr	r2, .L44
  470 0002 9368     		ldr	r3, [r2, #8]
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 16
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 16
 
 
  471 0004 43F40043 		orr	r3, r3, #32768
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  518              	.LVL21:
  519              	.LFB142:
  367:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 17
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 17
 
 
  368:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  543              	.L60:
  399:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   {
  400:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     case PWR_GPIO_A:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 18
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 18
 
 
  401:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        SET_BIT(PWR->PUCRA, (GPIONumber & (~(PWR_GPIO_BIT_14))));
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  587 0046 254B     		ldr	r3, .L62
  588 0048 1A6B     		ldr	r2, [r3, #48]
  589 004a 0A43     		orrs	r2, r2, r1
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 19
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 19
 
 
  590 004c 1A63     		str	r2, [r3, #48]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  630 0076 5A6C     		ldr	r2, [r3, #68]
  631 0078 22EA0101 		bic	r1, r2, r1
  632              	.LVL34:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 20
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 20
 
 
  633              		.loc 1 421 8 is_stmt 0 view .LVU133
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  434:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        break;
  673              		.loc 1 434 8 is_stmt 1 view .LVU146
  393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 21
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 21
 
 
  674              		.loc 1 393 21 is_stmt 0 view .LVU147
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  713              		.loc 1 448 8 view .LVU158
  393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
  714              		.loc 1 393 21 is_stmt 0 view .LVU159
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 22
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 22
 
 
  715 00d4 0020     		movs	r0, #0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  475:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** {
  744              		.loc 1 475 1 is_stmt 1 view -0
  745              		.cfi_startproc
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 23
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 23
 
 
  746              		@ args = 0, pretend = 0, frame = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  787 0028 23EA0101 		bic	r1, r3, r1
  788              	.LVL54:
  789              		.loc 1 487 8 is_stmt 0 view .LVU175
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 24
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 24
 
 
  790 002c 9162     		str	r1, [r2, #40]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  829              		.loc 1 499 8 is_stmt 1 view .LVU189
  830 004e 144A     		ldr	r2, .L77
  831 0050 136C     		ldr	r3, [r2, #64]
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 25
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 25
 
 
  832 0052 23EA0101 		bic	r1, r3, r1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  872              	.LVL71:
  873              	.L68:
  511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** #endif
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 26
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 26
 
 
  512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     case PWR_GPIO_H:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  910              		.loc 1 526 1 is_stmt 0 view .LVU216
  911 009c 7047     		bx	lr
  912              	.L78:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 27
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 27
 
 
  913 009e 00BF     		.align	2
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  937              		.loc 1 558 3 view .LVU221
  938 0000 0828     		cmp	r0, #8
  939 0002 69D8     		bhi	.L91
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 28
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 28
 
 
  940 0004 DFE800F0 		tbb	[pc, r0]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  985 003c 22EA0101 		bic	r1, r2, r1
  986              	.LVL84:
  987              		.loc 1 566 8 is_stmt 0 view .LVU232
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 29
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 29
 
 
  988 0040 9962     		str	r1, [r3, #40]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1029              	.LVL90:
  1030              		.loc 1 576 8 view .LVU247
  1031 006c 7047     		bx	lr
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 30
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 30
 
 
  1032              	.LVL91:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  589:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** #endif
  590:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** #if defined(GPIOG)
  591:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     case PWR_GPIO_G:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 31
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 31
 
 
  592:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        SET_BIT(PWR->PDCRG, GPIONumber);
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  605:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     case PWR_GPIO_I:
  606:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        SET_BIT(PWR->PDCRI, (GPIONumber & PWR_PORTI_AVAILABLE_PINS));
  1111              		.loc 1 606 8 is_stmt 1 view .LVU272
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 32
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 32
 
 
  1112 00c0 064B     		ldr	r3, .L92
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  619:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** /**
  620:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @brief Disable GPIO pull-down state in Standby and Shutdown modes.
  621:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @note  Reset the relevant PDy bits of PWR_PDCRx register used to configure the I/O
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 33
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 33
 
 
  622:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        in pull-down state in Standby and Shutdown modes.
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1185 001e 5162     		str	r1, [r2, #36]
  645:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        break;
  1186              		.loc 1 645 8 is_stmt 1 view .LVU288
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 34
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 34
 
 
  636:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1229              	.LVL118:
  1230              		.loc 1 654 8 is_stmt 0 view .LVU302
  1231 004c D163     		str	r1, [r2, #60]
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 35
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 35
 
 
  655:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        break;
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  668:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     case PWR_GPIO_G:
  669:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****        CLEAR_BIT(PWR->PDCRG, GPIONumber);
  1270              		.loc 1 669 8 is_stmt 1 view .LVU316
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 36
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 36
 
 
  1271 006e 0D4A     		ldr	r2, .L107
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  636:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
  1310              		.loc 1 636 21 is_stmt 0 view .LVU329
  1311 009a 0020     		movs	r0, #0
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 37
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 37
 
 
  1312              	.LVL134:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  706:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   SET_BIT(PWR->CR3, PWR_CR3_APC);
  1344              		.loc 1 706 3 view .LVU335
  1345 0000 024A     		ldr	r2, .L110
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 38
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 38
 
 
  1346 0002 9368     		ldr	r3, [r2, #8]
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1390              		.thumb
  1391              		.thumb_func
  1393              	HAL_PWREx_SetSRAM2ContentRetention:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 39
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 39
 
 
  1394              	.LVL137:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1410 000c 7047     		bx	lr
  1411              	.L116:
  758:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   }
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 40
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 40
 
 
  759:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   else if (SRAM2Size == PWR_FULL_SRAM2_RETENTION)
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1450              		.cfi_startproc
  1451              		@ args = 0, pretend = 0, frame = 0
  1452              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 41
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 41
 
 
  1453 0000 08B5     		push	{r3, lr}
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1504              	.LFB151:
  775:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
  776:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 42
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 42
 
 
  777:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** #if defined(PWR_CR3_ENULP)
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  831:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        Stop 2 mode and its content is kept.
  832:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @retval None
  833:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 43
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 43
 
 
  834:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** void HAL_PWREx_EnableSRAM3ContentRetention(void)
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1545              	.L130:
  1546              		.align	2
  1547              	.L129:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 44
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 44
 
 
  1548 000c 00700040 		.word	1073770496
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  867:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** void HAL_PWREx_DisableDSIPinsPDActivation(void)
  868:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** {
  1589              		.loc 1 868 1 is_stmt 1 view -0
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 45
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 45
 
 
  1590              		.cfi_startproc
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1633              		.cfi_endproc
  1634              	.LFE155:
  1636              		.section	.text.HAL_PWREx_DisablePVM1,"ax",%progbits
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 46
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 46
 
 
  1637              		.align	1
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1675              		@ args = 0, pretend = 0, frame = 0
  1676              		@ frame_needed = 0, uses_anonymous_args = 0
  1677              		@ link register save eliminated.
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 47
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 47
 
 
  901:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   SET_BIT(PWR->CR2, PWR_PVM_2);
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1724              		.thumb
  1725              		.thumb_func
  1727              	HAL_PWREx_EnablePVM3:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 48
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 48
 
 
  1728              	.LFB159:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1765 0004 23F04003 		bic	r3, r3, #64
  1766 0008 5360     		str	r3, [r2, #4]
  931:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** }
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 49
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 49
 
 
  1767              		.loc 1 931 1 is_stmt 0 view .LVU389
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  944:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @brief Disable the Power Voltage Monitoring 4:  VDDA versus 2.2V.
  945:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @retval None
  946:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 50
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 50
 
 
  947:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** void HAL_PWREx_DisablePVM4(void)
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  969:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
  1847              		.loc 1 969 3 view .LVU397
  970:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 51
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 51
 
 
  971:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   /* Check the parameters */
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1012:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** #endif /* PWR_CR2_PVME1 */
 1013:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
 1014:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** #if defined(PWR_CR2_PVME2)
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 52
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 52
 
 
 1015:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     case PWR_PVM_2:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1898 0050 536A     		ldr	r3, [r2, #36]
  1899 0052 43F01003 		orr	r3, r3, #16
  1900 0056 5362     		str	r3, [r2, #36]
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 53
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 53
 
 
  1901              	.L172:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1939              		.loc 1 979 3 view .LVU427
  1940 0086 802B     		cmp	r3, #128
  1941 0088 36D1     		bne	.L185
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 54
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 54
 
 
 1043:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       }
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  1955              		.loc 1 1083 7 view .LVU431
  1956 00a4 9A6A     		ldr	r2, [r3, #40]
  1957 00a6 22F04002 		bic	r2, r2, #64
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 55
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 55
 
 
  1958 00aa 9A62     		str	r2, [r3, #40]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1101:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       }
 1102:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
 1103:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       if((sConfigPVM->Mode & PVM_FALLING_EDGE) == PVM_FALLING_EDGE)
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 56
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 56
 
 
  1995              		.loc 1 1103 7 view .LVU444
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  990:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       {
  2038              		.loc 1 990 21 is_stmt 0 view .LVU457
  2039 011e 4368     		ldr	r3, [r0, #4]
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 57
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 57
 
 
  990:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       {
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2080 015c 224A     		ldr	r2, .L186
  2081 015e D36A     		ldr	r3, [r2, #44]
  2082 0160 43F00803 		orr	r3, r3, #8
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 58
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 58
 
 
  2083 0164 D362     		str	r3, [r2, #44]
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2124 01a0 13F4003F 		tst	r3, #131072
  2125 01a4 04D0     		beq	.L175
 1063:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****       }
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 59
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 59
 
 
  2126              		.loc 1 1063 9 is_stmt 1 view .LVU485
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2168              	.L181:
  969:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
  2169              		.loc 1 969 21 view .LVU498
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 60
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 60
 
 
  2170 01dc 0020     		movs	r0, #0
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1123:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        Flash in power-down monde in setting the RUN_PD bit in FLASH_ACR register.
 1124:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        Additionally, the clock frequency must be reduced below 2 MHz.
 1125:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        Setting RUN_PD in FLASH_ACR then appropriately reducing the clock frequency must
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 61
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 61
 
 
 1126:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        be done before calling HAL_PWREx_EnableLowPowerRunMode() API.
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1148:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   /* Clear LPR bit */
 1149:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   CLEAR_BIT(PWR->CR1, PWR_CR1_LPR);
  2239              		.loc 1 1149 3 view .LVU510
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 62
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 62
 
 
  2240 0000 104A     		ldr	r2, .L197
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2282 0032 5B69     		ldr	r3, [r3, #20]
  2283              		.loc 1 1157 6 view .LVU526
  2284 0034 13F4007F 		tst	r3, #512
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 63
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 63
 
 
  2285 0038 01D1     		bne	.L196
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1185:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *            @arg @ref PWR_STOPENTRY_WFE  Enter Stop mode with WFE instruction
 1186:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @retval None
 1187:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 64
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 64
 
 
 1188:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** void HAL_PWREx_EnterSTOP0Mode(uint8_t STOPEntry)
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2344 001c 20BF     		wfe
  2345              	@ 0 "" 2
  2346              		.thumb
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 65
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 65
 
 
  2347              		.syntax unified
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1230:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *         the HSI RC oscillator is selected as system clock if STOPWUCK bit in RCC_CFGR register
 1231:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *         is set; the MSI oscillator is selected if STOPWUCK is cleared.
 1232:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @note  Due to low power mode, an additional startup delay is incurred when waking up from Stop 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 66
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 66
 
 
 1233:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   * @param STOPEntry  specifies if Stop mode in entered with WFI or WFE instruction.
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2409              		.loc 1 1260 5 view .LVU549
  2410              	@ 1260 "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" 1
  2411 001e 20BF     		wfe
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 67
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 67
 
 
  2412              	@ 0 "" 2
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1274:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        the HSI and the HSE oscillators are disabled. Some peripherals with wakeup capability
 1275:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        (LCD, LPTIM1, I2C3 and LPUART) can switch on the HSI to receive a frame, and switch off 
 1276:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        receiving the frame if it is not a wakeup frame. In this case the HSI clock is propagate
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 68
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 68
 
 
 1277:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   *        to the peripheral requesting it.
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1310:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   {
 1311:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     /* Request Wait For Event */
 1312:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     __SEV();
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 69
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 69
 
 
  2475              		.loc 1 1312 5 is_stmt 1 view .LVU560
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2523              	.LFB169:
 1320:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
 1321:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 70
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 70
 
 
 1322:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2550              		.align	2
  2551              	.L218:
  2552 001c 00700040 		.word	1073770496
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 71
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 71
 
 
  2553 0020 00ED00E0 		.word	-536810240
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
 1393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     /* PWR PVM3 interrupt user callback */
 1394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     HAL_PWREx_PVM3Callback();
 1395:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 72
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 72
 
 
 1396:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****     /* Clear PVM3 exti pending bit */
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2588              		@ frame_needed = 0, uses_anonymous_args = 0
  2589              		@ link register save eliminated.
 1430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   /* NOTE : This function should not be modified; when the callback is needed,
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 73
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 73
 
 
 1431:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****             HAL_PWREx_PVM2Callback() API can be implemented in the user file
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2626              		@ frame_needed = 0, uses_anonymous_args = 0
  2627              		@ link register save eliminated.
 1453:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****   /* NOTE : This function should not be modified; when the callback is needed,
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 74
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 74
 
 
 1454:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c ****             HAL_PWREx_PVM4Callback() API can be implemented in the user file
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2671              		.loc 1 1382 5 view .LVU588
  2672 001a 13F0100F 		tst	r3, #16
  2673 001e 17D1     		bne	.L233
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 75
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 75
 
 
  2674              	.L227:
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2715              		.loc 1 1388 5 view .LVU601
  2716 0054 074B     		ldr	r3, .L236
  2717 0056 1022     		movs	r2, #16
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 76
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 76
 
 
  2718 0058 5A63     		str	r2, [r3, #52]
@@ -4543,152 +4543,152 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 1
  2753              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
  2754              		.file 8 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
  2755              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h"
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 77
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 77
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_pwr_ex.c
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:20     .text.HAL_PWREx_GetVoltageRange:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:26     .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:58     .text.HAL_PWREx_GetVoltageRange:00000020 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:63     .text.HAL_PWREx_ControlVoltageScaling:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:69     .text.HAL_PWREx_ControlVoltageScaling:00000000 HAL_PWREx_ControlVoltageScaling
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:273    .text.HAL_PWREx_ControlVoltageScaling:00000100 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:280    .text.HAL_PWREx_EnableBatteryCharging:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:286    .text.HAL_PWREx_EnableBatteryCharging:00000000 HAL_PWREx_EnableBatteryCharging
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:310    .text.HAL_PWREx_EnableBatteryCharging:00000018 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:315    .text.HAL_PWREx_DisableBatteryCharging:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:321    .text.HAL_PWREx_DisableBatteryCharging:00000000 HAL_PWREx_DisableBatteryCharging
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:338    .text.HAL_PWREx_DisableBatteryCharging:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:343    .text.HAL_PWREx_EnableVddUSB:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:349    .text.HAL_PWREx_EnableVddUSB:00000000 HAL_PWREx_EnableVddUSB
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:366    .text.HAL_PWREx_EnableVddUSB:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:371    .text.HAL_PWREx_DisableVddUSB:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:377    .text.HAL_PWREx_DisableVddUSB:00000000 HAL_PWREx_DisableVddUSB
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:394    .text.HAL_PWREx_DisableVddUSB:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:399    .text.HAL_PWREx_EnableVddIO2:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:405    .text.HAL_PWREx_EnableVddIO2:00000000 HAL_PWREx_EnableVddIO2
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:422    .text.HAL_PWREx_EnableVddIO2:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:427    .text.HAL_PWREx_DisableVddIO2:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:433    .text.HAL_PWREx_DisableVddIO2:00000000 HAL_PWREx_DisableVddIO2
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:450    .text.HAL_PWREx_DisableVddIO2:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:455    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:461    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 HAL_PWREx_EnableInternalWakeUpLine
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:478    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:483    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:489    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 HAL_PWREx_DisableInternalWakeUpLine
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:506    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:511    .text.HAL_PWREx_EnableGPIOPullUp:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:517    .text.HAL_PWREx_EnableGPIOPullUp:00000000 HAL_PWREx_EnableGPIOPullUp
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:533    .text.HAL_PWREx_EnableGPIOPullUp:00000008 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:730    .text.HAL_PWREx_EnableGPIOPullUp:000000dc $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:735    .text.HAL_PWREx_DisableGPIOPullUp:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:741    .text.HAL_PWREx_DisableGPIOPullUp:00000000 HAL_PWREx_DisableGPIOPullUp
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:757    .text.HAL_PWREx_DisableGPIOPullUp:00000008 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:915    .text.HAL_PWREx_DisableGPIOPullUp:000000a0 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:920    .text.HAL_PWREx_EnableGPIOPullDown:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:926    .text.HAL_PWREx_EnableGPIOPullDown:00000000 HAL_PWREx_EnableGPIOPullDown
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:942    .text.HAL_PWREx_EnableGPIOPullDown:00000008 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1140   .text.HAL_PWREx_EnableGPIOPullDown:000000dc $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1145   .text.HAL_PWREx_DisableGPIOPullDown:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1151   .text.HAL_PWREx_DisableGPIOPullDown:00000000 HAL_PWREx_DisableGPIOPullDown
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1167   .text.HAL_PWREx_DisableGPIOPullDown:00000008 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1326   .text.HAL_PWREx_DisableGPIOPullDown:000000a4 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1331   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1337   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 HAL_PWREx_EnablePullUpPullDownConfig
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1354   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1359   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1365   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 HAL_PWREx_DisablePullUpPullDownConfig
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1382   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1387   .text.HAL_PWREx_SetSRAM2ContentRetention:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1393   .text.HAL_PWREx_SetSRAM2ContentRetention:00000000 HAL_PWREx_SetSRAM2ContentRetention
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1436   .text.HAL_PWREx_SetSRAM2ContentRetention:00000028 $d
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 78
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:20     .text.HAL_PWREx_GetVoltageRange:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:26     .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:58     .text.HAL_PWREx_GetVoltageRange:00000020 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:63     .text.HAL_PWREx_ControlVoltageScaling:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:69     .text.HAL_PWREx_ControlVoltageScaling:00000000 HAL_PWREx_ControlVoltageScaling
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:273    .text.HAL_PWREx_ControlVoltageScaling:00000100 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:280    .text.HAL_PWREx_EnableBatteryCharging:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:286    .text.HAL_PWREx_EnableBatteryCharging:00000000 HAL_PWREx_EnableBatteryCharging
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:310    .text.HAL_PWREx_EnableBatteryCharging:00000018 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:315    .text.HAL_PWREx_DisableBatteryCharging:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:321    .text.HAL_PWREx_DisableBatteryCharging:00000000 HAL_PWREx_DisableBatteryCharging
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:338    .text.HAL_PWREx_DisableBatteryCharging:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:343    .text.HAL_PWREx_EnableVddUSB:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:349    .text.HAL_PWREx_EnableVddUSB:00000000 HAL_PWREx_EnableVddUSB
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:366    .text.HAL_PWREx_EnableVddUSB:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:371    .text.HAL_PWREx_DisableVddUSB:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:377    .text.HAL_PWREx_DisableVddUSB:00000000 HAL_PWREx_DisableVddUSB
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:394    .text.HAL_PWREx_DisableVddUSB:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:399    .text.HAL_PWREx_EnableVddIO2:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:405    .text.HAL_PWREx_EnableVddIO2:00000000 HAL_PWREx_EnableVddIO2
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:422    .text.HAL_PWREx_EnableVddIO2:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:427    .text.HAL_PWREx_DisableVddIO2:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:433    .text.HAL_PWREx_DisableVddIO2:00000000 HAL_PWREx_DisableVddIO2
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:450    .text.HAL_PWREx_DisableVddIO2:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:455    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:461    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 HAL_PWREx_EnableInternalWakeUpLine
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:478    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:483    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:489    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 HAL_PWREx_DisableInternalWakeUpLine
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:506    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:511    .text.HAL_PWREx_EnableGPIOPullUp:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:517    .text.HAL_PWREx_EnableGPIOPullUp:00000000 HAL_PWREx_EnableGPIOPullUp
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:533    .text.HAL_PWREx_EnableGPIOPullUp:00000008 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:730    .text.HAL_PWREx_EnableGPIOPullUp:000000dc $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:735    .text.HAL_PWREx_DisableGPIOPullUp:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:741    .text.HAL_PWREx_DisableGPIOPullUp:00000000 HAL_PWREx_DisableGPIOPullUp
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:757    .text.HAL_PWREx_DisableGPIOPullUp:00000008 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:915    .text.HAL_PWREx_DisableGPIOPullUp:000000a0 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:920    .text.HAL_PWREx_EnableGPIOPullDown:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:926    .text.HAL_PWREx_EnableGPIOPullDown:00000000 HAL_PWREx_EnableGPIOPullDown
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:942    .text.HAL_PWREx_EnableGPIOPullDown:00000008 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1140   .text.HAL_PWREx_EnableGPIOPullDown:000000dc $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1145   .text.HAL_PWREx_DisableGPIOPullDown:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1151   .text.HAL_PWREx_DisableGPIOPullDown:00000000 HAL_PWREx_DisableGPIOPullDown
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1167   .text.HAL_PWREx_DisableGPIOPullDown:00000008 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1326   .text.HAL_PWREx_DisableGPIOPullDown:000000a4 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1331   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1337   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 HAL_PWREx_EnablePullUpPullDownConfig
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1354   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1359   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1365   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 HAL_PWREx_DisablePullUpPullDownConfig
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1382   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1387   .text.HAL_PWREx_SetSRAM2ContentRetention:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1393   .text.HAL_PWREx_SetSRAM2ContentRetention:00000000 HAL_PWREx_SetSRAM2ContentRetention
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1436   .text.HAL_PWREx_SetSRAM2ContentRetention:00000028 $d
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 78
 
 
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1441   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1447   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 HAL_PWREx_EnableSRAM2ContentRetention
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1469   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1475   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 HAL_PWREx_DisableSRAM2ContentRetention
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1497   .text.HAL_PWREx_EnableSRAM3ContentRetention:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1503   .text.HAL_PWREx_EnableSRAM3ContentRetention:00000000 HAL_PWREx_EnableSRAM3ContentRetention
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1520   .text.HAL_PWREx_EnableSRAM3ContentRetention:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1525   .text.HAL_PWREx_DisableSRAM3ContentRetention:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1531   .text.HAL_PWREx_DisableSRAM3ContentRetention:00000000 HAL_PWREx_DisableSRAM3ContentRetention
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1548   .text.HAL_PWREx_DisableSRAM3ContentRetention:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1553   .text.HAL_PWREx_EnableDSIPinsPDActivation:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1559   .text.HAL_PWREx_EnableDSIPinsPDActivation:00000000 HAL_PWREx_EnableDSIPinsPDActivation
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1576   .text.HAL_PWREx_EnableDSIPinsPDActivation:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1581   .text.HAL_PWREx_DisableDSIPinsPDActivation:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1587   .text.HAL_PWREx_DisableDSIPinsPDActivation:00000000 HAL_PWREx_DisableDSIPinsPDActivation
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1604   .text.HAL_PWREx_DisableDSIPinsPDActivation:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1609   .text.HAL_PWREx_EnablePVM1:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1615   .text.HAL_PWREx_EnablePVM1:00000000 HAL_PWREx_EnablePVM1
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1632   .text.HAL_PWREx_EnablePVM1:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1637   .text.HAL_PWREx_DisablePVM1:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1643   .text.HAL_PWREx_DisablePVM1:00000000 HAL_PWREx_DisablePVM1
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1660   .text.HAL_PWREx_DisablePVM1:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1665   .text.HAL_PWREx_EnablePVM2:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1671   .text.HAL_PWREx_EnablePVM2:00000000 HAL_PWREx_EnablePVM2
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1688   .text.HAL_PWREx_EnablePVM2:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1693   .text.HAL_PWREx_DisablePVM2:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1699   .text.HAL_PWREx_DisablePVM2:00000000 HAL_PWREx_DisablePVM2
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1716   .text.HAL_PWREx_DisablePVM2:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1721   .text.HAL_PWREx_EnablePVM3:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1727   .text.HAL_PWREx_EnablePVM3:00000000 HAL_PWREx_EnablePVM3
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1744   .text.HAL_PWREx_EnablePVM3:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1749   .text.HAL_PWREx_DisablePVM3:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1755   .text.HAL_PWREx_DisablePVM3:00000000 HAL_PWREx_DisablePVM3
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1772   .text.HAL_PWREx_DisablePVM3:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1777   .text.HAL_PWREx_EnablePVM4:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1783   .text.HAL_PWREx_EnablePVM4:00000000 HAL_PWREx_EnablePVM4
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1800   .text.HAL_PWREx_EnablePVM4:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1805   .text.HAL_PWREx_DisablePVM4:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1811   .text.HAL_PWREx_DisablePVM4:00000000 HAL_PWREx_DisablePVM4
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1828   .text.HAL_PWREx_DisablePVM4:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1833   .text.HAL_PWREx_ConfigPVM:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1839   .text.HAL_PWREx_ConfigPVM:00000000 HAL_PWREx_ConfigPVM
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2192   .text.HAL_PWREx_ConfigPVM:000001e8 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2197   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2203   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 HAL_PWREx_EnableLowPowerRunMode
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2220   .text.HAL_PWREx_EnableLowPowerRunMode:0000000c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2225   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2231   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 HAL_PWREx_DisableLowPowerRunMode
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2297   .text.HAL_PWREx_DisableLowPowerRunMode:00000044 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2304   .text.HAL_PWREx_EnterSTOP0Mode:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2310   .text.HAL_PWREx_EnterSTOP0Mode:00000000 HAL_PWREx_EnterSTOP0Mode
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2368   .text.HAL_PWREx_EnterSTOP0Mode:00000030 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2374   .text.HAL_PWREx_EnterSTOP1Mode:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2380   .text.HAL_PWREx_EnterSTOP1Mode:00000000 HAL_PWREx_EnterSTOP1Mode
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2439   .text.HAL_PWREx_EnterSTOP1Mode:00000034 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2445   .text.HAL_PWREx_EnterSTOP2Mode:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2451   .text.HAL_PWREx_EnterSTOP2Mode:00000000 HAL_PWREx_EnterSTOP2Mode
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s 			page 79
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1441   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1447   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 HAL_PWREx_EnableSRAM2ContentRetention
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1469   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1475   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 HAL_PWREx_DisableSRAM2ContentRetention
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1497   .text.HAL_PWREx_EnableSRAM3ContentRetention:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1503   .text.HAL_PWREx_EnableSRAM3ContentRetention:00000000 HAL_PWREx_EnableSRAM3ContentRetention
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1520   .text.HAL_PWREx_EnableSRAM3ContentRetention:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1525   .text.HAL_PWREx_DisableSRAM3ContentRetention:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1531   .text.HAL_PWREx_DisableSRAM3ContentRetention:00000000 HAL_PWREx_DisableSRAM3ContentRetention
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1548   .text.HAL_PWREx_DisableSRAM3ContentRetention:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1553   .text.HAL_PWREx_EnableDSIPinsPDActivation:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1559   .text.HAL_PWREx_EnableDSIPinsPDActivation:00000000 HAL_PWREx_EnableDSIPinsPDActivation
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1576   .text.HAL_PWREx_EnableDSIPinsPDActivation:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1581   .text.HAL_PWREx_DisableDSIPinsPDActivation:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1587   .text.HAL_PWREx_DisableDSIPinsPDActivation:00000000 HAL_PWREx_DisableDSIPinsPDActivation
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1604   .text.HAL_PWREx_DisableDSIPinsPDActivation:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1609   .text.HAL_PWREx_EnablePVM1:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1615   .text.HAL_PWREx_EnablePVM1:00000000 HAL_PWREx_EnablePVM1
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1632   .text.HAL_PWREx_EnablePVM1:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1637   .text.HAL_PWREx_DisablePVM1:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1643   .text.HAL_PWREx_DisablePVM1:00000000 HAL_PWREx_DisablePVM1
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1660   .text.HAL_PWREx_DisablePVM1:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1665   .text.HAL_PWREx_EnablePVM2:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1671   .text.HAL_PWREx_EnablePVM2:00000000 HAL_PWREx_EnablePVM2
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1688   .text.HAL_PWREx_EnablePVM2:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1693   .text.HAL_PWREx_DisablePVM2:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1699   .text.HAL_PWREx_DisablePVM2:00000000 HAL_PWREx_DisablePVM2
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1716   .text.HAL_PWREx_DisablePVM2:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1721   .text.HAL_PWREx_EnablePVM3:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1727   .text.HAL_PWREx_EnablePVM3:00000000 HAL_PWREx_EnablePVM3
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1744   .text.HAL_PWREx_EnablePVM3:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1749   .text.HAL_PWREx_DisablePVM3:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1755   .text.HAL_PWREx_DisablePVM3:00000000 HAL_PWREx_DisablePVM3
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1772   .text.HAL_PWREx_DisablePVM3:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1777   .text.HAL_PWREx_EnablePVM4:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1783   .text.HAL_PWREx_EnablePVM4:00000000 HAL_PWREx_EnablePVM4
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1800   .text.HAL_PWREx_EnablePVM4:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1805   .text.HAL_PWREx_DisablePVM4:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1811   .text.HAL_PWREx_DisablePVM4:00000000 HAL_PWREx_DisablePVM4
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1828   .text.HAL_PWREx_DisablePVM4:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1833   .text.HAL_PWREx_ConfigPVM:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1839   .text.HAL_PWREx_ConfigPVM:00000000 HAL_PWREx_ConfigPVM
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2192   .text.HAL_PWREx_ConfigPVM:000001e8 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2197   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2203   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 HAL_PWREx_EnableLowPowerRunMode
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2220   .text.HAL_PWREx_EnableLowPowerRunMode:0000000c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2225   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2231   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 HAL_PWREx_DisableLowPowerRunMode
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2297   .text.HAL_PWREx_DisableLowPowerRunMode:00000044 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2304   .text.HAL_PWREx_EnterSTOP0Mode:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2310   .text.HAL_PWREx_EnterSTOP0Mode:00000000 HAL_PWREx_EnterSTOP0Mode
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2368   .text.HAL_PWREx_EnterSTOP0Mode:00000030 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2374   .text.HAL_PWREx_EnterSTOP1Mode:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2380   .text.HAL_PWREx_EnterSTOP1Mode:00000000 HAL_PWREx_EnterSTOP1Mode
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2439   .text.HAL_PWREx_EnterSTOP1Mode:00000034 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2445   .text.HAL_PWREx_EnterSTOP2Mode:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2451   .text.HAL_PWREx_EnterSTOP2Mode:00000000 HAL_PWREx_EnterSTOP2Mode
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s 			page 79
 
 
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2510   .text.HAL_PWREx_EnterSTOP2Mode:00000034 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2516   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2522   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 HAL_PWREx_EnterSHUTDOWNMode
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2552   .text.HAL_PWREx_EnterSHUTDOWNMode:0000001c $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2558   .text.HAL_PWREx_PVM1Callback:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2564   .text.HAL_PWREx_PVM1Callback:00000000 HAL_PWREx_PVM1Callback
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2577   .text.HAL_PWREx_PVM2Callback:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2583   .text.HAL_PWREx_PVM2Callback:00000000 HAL_PWREx_PVM2Callback
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2596   .text.HAL_PWREx_PVM3Callback:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2602   .text.HAL_PWREx_PVM3Callback:00000000 HAL_PWREx_PVM3Callback
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2615   .text.HAL_PWREx_PVM4Callback:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2621   .text.HAL_PWREx_PVM4Callback:00000000 HAL_PWREx_PVM4Callback
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2634   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2640   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 HAL_PWREx_PVD_PVM_IRQHandler
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:2742   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000074 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:542    .text.HAL_PWREx_EnableGPIOPullUp:00000011 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:542    .text.HAL_PWREx_EnableGPIOPullUp:00000012 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:766    .text.HAL_PWREx_DisableGPIOPullUp:00000011 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:766    .text.HAL_PWREx_DisableGPIOPullUp:00000012 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:951    .text.HAL_PWREx_EnableGPIOPullDown:00000011 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:951    .text.HAL_PWREx_EnableGPIOPullDown:00000012 $t
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1176   .text.HAL_PWREx_DisableGPIOPullDown:00000011 $d
-C:\Users\lalbo\AppData\Local\Temp\ccmjQBWd.s:1176   .text.HAL_PWREx_DisableGPIOPullDown:00000012 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2510   .text.HAL_PWREx_EnterSTOP2Mode:00000034 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2516   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2522   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 HAL_PWREx_EnterSHUTDOWNMode
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2552   .text.HAL_PWREx_EnterSHUTDOWNMode:0000001c $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2558   .text.HAL_PWREx_PVM1Callback:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2564   .text.HAL_PWREx_PVM1Callback:00000000 HAL_PWREx_PVM1Callback
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2577   .text.HAL_PWREx_PVM2Callback:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2583   .text.HAL_PWREx_PVM2Callback:00000000 HAL_PWREx_PVM2Callback
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2596   .text.HAL_PWREx_PVM3Callback:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2602   .text.HAL_PWREx_PVM3Callback:00000000 HAL_PWREx_PVM3Callback
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2615   .text.HAL_PWREx_PVM4Callback:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2621   .text.HAL_PWREx_PVM4Callback:00000000 HAL_PWREx_PVM4Callback
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2634   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2640   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 HAL_PWREx_PVD_PVM_IRQHandler
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:2742   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000074 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:542    .text.HAL_PWREx_EnableGPIOPullUp:00000011 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:542    .text.HAL_PWREx_EnableGPIOPullUp:00000012 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:766    .text.HAL_PWREx_DisableGPIOPullUp:00000011 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:766    .text.HAL_PWREx_DisableGPIOPullUp:00000012 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:951    .text.HAL_PWREx_EnableGPIOPullDown:00000011 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:951    .text.HAL_PWREx_EnableGPIOPullDown:00000012 $t
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1176   .text.HAL_PWREx_DisableGPIOPullDown:00000011 $d
+C:\Users\lalbo\AppData\Local\Temp\ccQB0Hvt.s:1176   .text.HAL_PWREx_DisableGPIOPullDown:00000012 $t
 
 UNDEFINED SYMBOLS
 SystemCoreClock
