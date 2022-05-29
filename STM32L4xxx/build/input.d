@@ -1,4 +1,4 @@
-build/main.o: Core/Src/main.c Core/Inc/main.h \
+build/input.o: drv/input/input.c drv/input/input.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  Core/Inc/stm32l4xx_hal_conf.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -23,9 +23,8 @@ build/main.o: Core/Src/main.c Core/Inc/main.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
- Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
- drv/input/input.h drv/output/output.h
-Core/Inc/main.h:
+ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h
+drv/input/input.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 Core/Inc/stm32l4xx_hal_conf.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
@@ -53,5 +52,3 @@ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
-drv/input/input.h:
-drv/output/output.h:

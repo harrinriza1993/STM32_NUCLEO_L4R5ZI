@@ -21,7 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include"input.h"
+#include "output.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -83,8 +84,13 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
+  //MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  input_init(GPIOE, GPIO_PIN_11);
+
+  outputinit(GPIOB, GPIO_PIN_7);
+  outputinit(GPIOC, GPIO_PIN_7);
+  outputinit(GPIOB, GPIO_PIN_14);
 
   /* USER CODE END 2 */
 
@@ -96,15 +102,27 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
+    // if(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_11) == GPIO_PIN_SET)
+    // {
+    //   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14 | GPIO_PIN_7, GPIO_PIN_SET);
+    //   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_SET);
+    //  }
+    // else
+    // {
+    //   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14 | GPIO_PIN_7, GPIO_PIN_RESET);
+    //   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_RESET);
+    // }
     if(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_11) == GPIO_PIN_SET)
     {
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14 | GPIO_PIN_7, GPIO_PIN_SET);
-      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_SET);
-     }
+      setpin(GPIOB, GPIO_PIN_14);
+      setpin(GPIOB, GPIO_PIN_7);
+      setpin(GPIOC, GPIO_PIN_7);
+    }
     else
     {
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14 | GPIO_PIN_7, GPIO_PIN_RESET);
-      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_RESET);
+       clearpin(GPIOB, GPIO_PIN_7);
+       clearpin(GPIOC, GPIO_PIN_7);
+       clearpin(GPIOB, GPIO_PIN_14);
     }
 }
   /* USER CODE END 3 */

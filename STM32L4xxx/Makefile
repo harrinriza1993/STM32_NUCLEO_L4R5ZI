@@ -56,7 +56,9 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c \
-Core/Src/system_stm32l4xx.c
+Core/Src/system_stm32l4xx.c \
+drv/input/input.c \
+drv/output/output.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -117,7 +119,9 @@ C_INCLUDES =  \
 -IDrivers/STM32L4xx_HAL_Driver/Inc \
 -IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32L4xx/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include \
+-Idrv/input \
+-Idrv/output
 
 
 # compile gcc flags
