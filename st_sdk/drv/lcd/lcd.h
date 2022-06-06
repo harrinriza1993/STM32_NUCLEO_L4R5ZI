@@ -9,4 +9,5 @@ extern "C" {
 
 void lcd_init();
 void lcd_display(unsigned char* data_name, int line_selection);
+
 #endif

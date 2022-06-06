@@ -30,11 +30,20 @@
 #define RS_PORT GPIOF
 #define EN_PORT GPIOD
 
+#define LCD_CMD_DISPLAY_ON 0x0C
+#define LCD_CMD_4BIT_MODE 0x28
+#define LCD_CMD_CLEAR 0x01
+#define LCD_CMD_SELECT_LINE1 0x80
+#define LCD_CMD_SELECT_LINE2 0xC0
+
 static void send_data(unsigned char data);
-static void send_command(unsigned char data);
+static void send_command(unsigned char cmd);
 static void write_data(unsigned char data);
 static void enable_pulse();
 
+/**
+ * @brief Lcd pin initilization for lcd keyboard shield.
+ */
 void lcd_init()
 {
     outputinit(GPIOF, GPIO_PIN_14 | GPIO_PIN_13 | GPIO_PIN_12);
@@ -46,23 +55,28 @@ void lcd_init()
     clearpin(GPIOD, GPIO_PIN_15);
 
     /*Display on */
-    send_command(0x0C);
+    send_command(LCD_CMD_DISPLAY_ON);
     HAL_Delay(50);
-    send_command(0x28);
+    send_command(LCD_CMD_4BIT_MODE);
     HAL_Delay(50);
-    send_command(0x01);
+    send_command(LCD_CMD_CLEAR);
     HAL_Delay(50);
 }
 
+/**
+ * @brief Displays string on the lcd
+ * @param[in] data_name - String to display
+ * @param[in] line_selection - Select the line (1: First line, 2: Second line)
+ */
 void lcd_display(unsigned char *data_name, int line_selection) 
 {
   if(line_selection == 1)
   {
-    send_command(0x80);
+    send_command(LCD_CMD_SELECT_LINE1);
   }
-  else
+  else if(line_selection == 2)
   {
-    send_command(0xC0);
+    send_command(LCD_CMD_SELECT_LINE2);
   }
 
   while(*data_name != '\0')
@@ -72,6 +86,9 @@ void lcd_display(unsigned char *data_name, int line_selection)
   }
 }
 
+/**
+ * @brief Enable the pulse (on and off the en pin)
+ */
 static void enable_pulse()
 {
   HAL_GPIO_WritePin(EN_PORT, EN_PIN, GPIO_PIN_SET);
@@ -80,6 +97,10 @@ static void enable_pulse()
   HAL_Delay(20);
 }
 
+/**
+ * @brief Write the data to the lcd
+ * @param[in] data - Character/command to write on the lcd.
+ */
 static void write_data(unsigned char data)
 {
   unsigned char lsb_nibble = data & 0xF, msb_nibble = (data >> 4) & 0xF;
@@ -101,6 +122,10 @@ static void write_data(unsigned char data)
   enable_pulse();
 }
 
+/**
+ * @brief Send the data to the lcd
+ * @param[in] data - Character to write on the lcd.
+ */
 static void send_data(unsigned char data)
 {
   /*Setting rs pin high */
@@ -110,11 +135,15 @@ static void send_data(unsigned char data)
   write_data(data);
 }
 
-static void send_command(unsigned char data)
+/**
+ * @brief Send the command to the lcd
+ * @param[in] cmd - Command to write on the lcd.
+ */
+static void send_command(unsigned char cmd)
 {
   /*Setting rs pin low */
   HAL_GPIO_WritePin(RS_PORT, RS_PIN, GPIO_PIN_RESET);
   HAL_Delay(20);
 
-  write_data(data);
+  write_data(cmd);
 }

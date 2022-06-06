@@ -87,11 +87,11 @@ int main(void)
   /* Initialize all configured peripherals */
   //MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  input_init(GPIOE, GPIO_PIN_11);
+  // input_init(GPIOE, GPIO_PIN_11);
 
-  outputinit(GPIOB, GPIO_PIN_7);
-  outputinit(GPIOC, GPIO_PIN_7);
-  outputinit(GPIOB, GPIO_PIN_14);
+  // outputinit(GPIOB, GPIO_PIN_7);
+  // outputinit(GPIOC, GPIO_PIN_7);
+  // outputinit(GPIOB, GPIO_PIN_14);
 
   lcd_init();
 

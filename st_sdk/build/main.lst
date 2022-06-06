@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
   28:Core/Src/main.c **** 
   29:Core/Src/main.c **** /* Private typedef -----------------------------------------------------------*/
   30:Core/Src/main.c **** /* USER CODE BEGIN PTD */
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 2
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 2
 
 
   31:Core/Src/main.c **** 
@@ -118,16 +118,16 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
   85:Core/Src/main.c ****   /* USER CODE END SysInit */
   86:Core/Src/main.c **** 
   87:Core/Src/main.c ****   /* Initialize all configured peripherals */
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 3
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 3
 
 
   88:Core/Src/main.c ****   //MX_GPIO_Init();
   89:Core/Src/main.c ****   /* USER CODE BEGIN 2 */
-  90:Core/Src/main.c ****   input_init(GPIOE, GPIO_PIN_11);
+  90:Core/Src/main.c ****   // input_init(GPIOE, GPIO_PIN_11);
   91:Core/Src/main.c **** 
-  92:Core/Src/main.c ****   outputinit(GPIOB, GPIO_PIN_7);
-  93:Core/Src/main.c ****   outputinit(GPIOC, GPIO_PIN_7);
-  94:Core/Src/main.c ****   outputinit(GPIOB, GPIO_PIN_14);
+  92:Core/Src/main.c ****   // outputinit(GPIOB, GPIO_PIN_7);
+  93:Core/Src/main.c ****   // outputinit(GPIOC, GPIO_PIN_7);
+  94:Core/Src/main.c ****   // outputinit(GPIOB, GPIO_PIN_14);
   95:Core/Src/main.c **** 
   96:Core/Src/main.c ****   lcd_init();
   97:Core/Src/main.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  142:Core/Src/main.c ****   * @brief System Clock Configuration
  143:Core/Src/main.c ****   * @retval None
  144:Core/Src/main.c ****   */
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 4
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 4
 
 
  145:Core/Src/main.c **** void SystemClock_Config(void)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  199:Core/Src/main.c ****   /*Configure GPIO pin Output Level */
  200:Core/Src/main.c ****   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14|GPIO_PIN_7, GPIO_PIN_RESET);
  201:Core/Src/main.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 5
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 5
 
 
  202:Core/Src/main.c ****   /*Configure GPIO pin Output Level */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
    7:Drivers/CMSIS/Include/cmsis_gcc.h **** /*
    8:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Copyright (c) 2009-2019 Arm Limited. All rights reserved.
    9:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 6
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 6
 
 
   10:Drivers/CMSIS/Include/cmsis_gcc.h ****  * SPDX-License-Identifier: Apache-2.0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
   64:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED_STRUCT
   65:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __PACKED_STRUCT                        struct __attribute__((packed, aligned(1)))
   66:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 7
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 7
 
 
   67:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED_UNION
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  121:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  122:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __PROGRAM_START
  123:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 8
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 8
 
 
  124:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  178:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __VECTOR_TABLE            __Vectors
  179:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  180:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 9
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 9
 
 
  181:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __VECTOR_TABLE_ATTRIBUTE
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
   61              		.syntax unified
   62              		.thumb
   63              		.thumb_func
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 10
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 10
 
 
   65              	SystemClock_Config:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  107 002a 0B93     		str	r3, [sp, #44]
  162:Core/Src/main.c ****   RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_6;
  108              		.loc 1 162 3 is_stmt 1 view .LVU19
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 11
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 11
 
 
  162:Core/Src/main.c ****   RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_6;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  179:Core/Src/main.c ****   {
  144              		.loc 1 179 7 is_stmt 0 view .LVU39
  145 004c 6846     		mov	r0, sp
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 12
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 12
 
 
  146 004e FFF7FEFF 		bl	HAL_RCC_ClockConfig
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  193              	.LCFI4:
  194              		.cfi_def_cfa_offset 4
  195              		.cfi_offset 14, -4
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 13
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 13
 
 
  196 0002 83B0     		sub	sp, sp, #12
@@ -732,100 +732,69 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 1
  202              		.loc 1 81 3 view .LVU47
  203 0008 FFF7FEFF 		bl	SystemClock_Config
  204              	.LVL8:
-  90:Core/Src/main.c **** 
- 205              		.loc 1 90 3 view .LVU48
- 206 000c 4FF40061 		mov	r1, #2048
- 207 0010 0E48     		ldr	r0, .L14
- 208 0012 FFF7FEFF 		bl	input_init
- 209              	.LVL9:
-  92:Core/Src/main.c ****   outputinit(GPIOC, GPIO_PIN_7);
- 210              		.loc 1 92 3 view .LVU49
- 211 0016 0E4C     		ldr	r4, .L14+4
- 212 0018 8021     		movs	r1, #128
- 213 001a 2046     		mov	r0, r4
- 214 001c FFF7FEFF 		bl	outputinit
- 215              	.LVL10:
-  93:Core/Src/main.c ****   outputinit(GPIOB, GPIO_PIN_14);
- 216              		.loc 1 93 3 view .LVU50
- 217 0020 8021     		movs	r1, #128
- 218 0022 0C48     		ldr	r0, .L14+8
- 219 0024 FFF7FEFF 		bl	outputinit
- 220              	.LVL11:
-  94:Core/Src/main.c **** 
- 221              		.loc 1 94 3 view .LVU51
- 222 0028 4FF48041 		mov	r1, #16384
- 223 002c 2046     		mov	r0, r4
- 224 002e FFF7FEFF 		bl	outputinit
- 225              	.LVL12:
   96:Core/Src/main.c **** 
- 226              		.loc 1 96 3 view .LVU52
- 227 0032 FFF7FEFF 		bl	lcd_init
- 228              	.LVL13:
- 229              	.L12:
+ 205              		.loc 1 96 3 view .LVU48
+ 206 000c FFF7FEFF 		bl	lcd_init
+ 207              	.LVL9:
+ 208              	.L12:
  104:Core/Src/main.c ****   {
- 230              		.loc 1 104 3 discriminator 1 view .LVU53
- 231              	.LBB6:
+ 209              		.loc 1 104 3 discriminator 1 view .LVU49
+ 210              	.LBB6:
  132:Core/Src/main.c ****     lcd_display(data, 1);
- 232              		.loc 1 132 5 discriminator 1 view .LVU54
+ 211              		.loc 1 132 5 discriminator 1 view .LVU50
  132:Core/Src/main.c ****     lcd_display(data, 1);
- 233              		.loc 1 132 19 is_stmt 0 discriminator 1 view .LVU55
- 234 0036 084B     		ldr	r3, .L14+12
- 235 0038 0193     		str	r3, [sp, #4]
+ 212              		.loc 1 132 19 is_stmt 0 discriminator 1 view .LVU51
+ 213 0010 054B     		ldr	r3, .L14
+ 214 0012 0193     		str	r3, [sp, #4]
  133:Core/Src/main.c ****     lcd_display("Harrin Delina", 2);
- 236              		.loc 1 133 5 is_stmt 1 discriminator 1 view .LVU56
- 237 003a 0121     		movs	r1, #1
- 238 003c 01A8     		add	r0, sp, #4
- 239 003e FFF7FEFF 		bl	lcd_display
- 240              	.LVL14:
+ 215              		.loc 1 133 5 is_stmt 1 discriminator 1 view .LVU52
+ 216 0014 0121     		movs	r1, #1
+ 217 0016 01A8     		add	r0, sp, #4
+ 218 0018 FFF7FEFF 		bl	lcd_display
+ 219              	.LVL10:
  134:Core/Src/main.c ****      
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 14
-
-
- 241              		.loc 1 134 5 discriminator 1 view .LVU57
- 242 0042 0221     		movs	r1, #2
- 243 0044 0548     		ldr	r0, .L14+16
- 244 0046 FFF7FEFF 		bl	lcd_display
- 245              	.LVL15:
- 246              	.LBE6:
+ 220              		.loc 1 134 5 discriminator 1 view .LVU53
+ 221 001c 0221     		movs	r1, #2
+ 222 001e 0348     		ldr	r0, .L14+4
+ 223 0020 FFF7FEFF 		bl	lcd_display
+ 224              	.LVL11:
+ 225              	.LBE6:
  104:Core/Src/main.c ****   {
- 247              		.loc 1 104 9 discriminator 1 view .LVU58
- 248 004a F4E7     		b	.L12
- 249              	.L15:
- 250              		.align	2
- 251              	.L14:
- 252 004c 00100048 		.word	1207963648
- 253 0050 00040048 		.word	1207960576
- 254 0054 00080048 		.word	1207961600
- 255 0058 4C616C00 		.word	7102796
- 256 005c 00000000 		.word	.LC0
- 257              		.cfi_endproc
- 258              	.LFE132:
- 260              		.text
- 261              	.Letext0:
- 262              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 263              		.file 4 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 264              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4r5xx.h"
- 265              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h"
- 266              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
- 267              		.file 8 "drv/lcd/lcd.h"
- 268              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
- 269              		.file 10 "drv/input/input.h"
- 270              		.file 11 "drv/output/output.h"
- 271              		.file 12 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
- 272              		.file 13 "<built-in>"
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s 			page 15
+ 226              		.loc 1 104 9 discriminator 1 view .LVU54
+ 227 0024 F4E7     		b	.L12
+ 228              	.L15:
+ 229 0026 00BF     		.align	2
+ 230              	.L14:
+ 231 0028 4C616C00 		.word	7102796
+ 232 002c 00000000 		.word	.LC0
+ 233              		.cfi_endproc
+ 234              	.LFE132:
+ 236              		.text
+ 237              	.Letext0:
+ 238              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 239              		.file 4 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 240              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h"
+ 241              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
+ 242              		.file 7 "drv/lcd/lcd.h"
+ 243              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
+ 244              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 14
+
+
+ 245              		.file 10 "<built-in>"
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s 			page 15
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:20     .text.Error_Handler:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:26     .text.Error_Handler:00000000 Error_Handler
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:59     .text.SystemClock_Config:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:65     .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:175    .rodata.main.str1.4:00000000 $d
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:179    .text.main:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:185    .text.main:00000000 main
-C:\Users\lalbo\AppData\Local\Temp\ccZxp6sh.s:252    .text.main:0000004c $d
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:20     .text.Error_Handler:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:26     .text.Error_Handler:00000000 Error_Handler
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:59     .text.SystemClock_Config:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:65     .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:175    .rodata.main.str1.4:00000000 $d
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:179    .text.main:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:185    .text.main:00000000 main
+C:\Users\lalbo\AppData\Local\Temp\ccnYaeHY.s:231    .text.main:00000028 $d
 
 UNDEFINED SYMBOLS
 memset
@@ -833,7 +802,5 @@ HAL_PWREx_ControlVoltageScaling
 HAL_RCC_OscConfig
 HAL_RCC_ClockConfig
 HAL_Init
-input_init
-outputinit
 lcd_init
 lcd_display
