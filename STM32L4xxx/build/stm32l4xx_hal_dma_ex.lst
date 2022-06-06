@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
   27:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** 
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****    (+) Configure the DMA_MUX Synchronization Block using HAL_DMAEx_ConfigMuxSync function.
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****    (+) Configure the DMA_MUX Request Generator Block using HAL_DMAEx_ConfigMuxRequestGenerator func
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 2
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 2
 
 
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****        Functions HAL_DMAEx_EnableMuxRequestGenerator and HAL_DMAEx_DisableMuxRequestGenerator can t
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
   84:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****  ===============================================================================
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****     [..]  This section provides functions allowing to:
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 3
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 3
 
 
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****     (+) Configure the DMAMUX Synchronization Block using HAL_DMAEx_ConfigMuxSync function.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
   50 000a 90F82430 		ldrb	r3, [r0, #36]	@ zero_extendqisi2
   51 000e 012B     		cmp	r3, #1
   52 0010 1FD0     		beq	.L4
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 4
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 4
 
 
  105:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****   /* Check the parameters */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  136:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****     /*DMA State not Ready*/
  137:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****     return HAL_ERROR;
  138:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****   }
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 5
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 5
 
 
  139:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** }
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  131 0000 0246     		mov	r2, r0
  152:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****   /* Check the parameters */
  153:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****   assert_param(IS_DMA_ALL_INSTANCE(hdma->Instance));
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 6
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 6
 
 
  132              		.loc 1 153 3 is_stmt 1 view .LVU29
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  168 0024 0138     		subs	r0, r0, #1
  169:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****                                   ((pRequestGeneratorConfig->RequestNumber - 1U) << DMAMUX_RGxCR_GN
  169              		.loc 1 169 70 discriminator 2 view .LVU47
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 7
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 7
 
 
  170 0026 43EAC043 		orr	r3, r3, r0, lsl #19
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  210              		.syntax unified
  211              		.thumb
  212              		.thumb_func
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 8
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 8
 
 
  214              	HAL_DMAEx_EnableMuxRequestGenerator:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  205:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****  else
  206:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****  {
  207:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****    return HAL_ERROR;
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 9
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 9
 
 
  245              		.loc 1 207 11 view .LVU71
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  283              		.loc 1 225 43 discriminator 1 view .LVU81
  284 0008 3BB1     		cbz	r3, .L24
  226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****   {
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 10
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 10
 
 
  227:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  245:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** void HAL_DMAEx_MUX_IRQHandler(DMA_HandleTypeDef *hdma)
  246:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** {
  323              		.loc 1 246 1 is_stmt 1 view -0
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 11
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 11
 
 
  324              		.cfi_startproc
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  365 0026 436B     		ldr	r3, [r0, #52]
  366              		.loc 1 259 7 view .LVU109
  367 0028 03B1     		cbz	r3, .L26
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 12
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 12
 
 
  260:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****     {
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  403 004e E363     		str	r3, [r4, #60]
  279:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c **** 
  280:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c ****       if(hdma->XferErrorCallback != NULL)
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 13
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 13
 
 
  404              		.loc 1 280 7 is_stmt 1 view .LVU127
@@ -752,20 +752,20 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 1
  426              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  427              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
  428              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h"
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s 			page 14
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_dma_ex.c
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:20     .text.HAL_DMAEx_ConfigMuxSync:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:26     .text.HAL_DMAEx_ConfigMuxSync:00000000 HAL_DMAEx_ConfigMuxSync
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:116    .text.HAL_DMAEx_ConfigMuxRequestGenerator:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:122    .text.HAL_DMAEx_ConfigMuxRequestGenerator:00000000 HAL_DMAEx_ConfigMuxRequestGenerator
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:208    .text.HAL_DMAEx_EnableMuxRequestGenerator:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:214    .text.HAL_DMAEx_EnableMuxRequestGenerator:00000000 HAL_DMAEx_EnableMuxRequestGenerator
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:261    .text.HAL_DMAEx_DisableMuxRequestGenerator:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:267    .text.HAL_DMAEx_DisableMuxRequestGenerator:00000000 HAL_DMAEx_DisableMuxRequestGenerator
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:314    .text.HAL_DMAEx_MUX_IRQHandler:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\cctU0nHE.s:320    .text.HAL_DMAEx_MUX_IRQHandler:00000000 HAL_DMAEx_MUX_IRQHandler
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:20     .text.HAL_DMAEx_ConfigMuxSync:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:26     .text.HAL_DMAEx_ConfigMuxSync:00000000 HAL_DMAEx_ConfigMuxSync
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:116    .text.HAL_DMAEx_ConfigMuxRequestGenerator:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:122    .text.HAL_DMAEx_ConfigMuxRequestGenerator:00000000 HAL_DMAEx_ConfigMuxRequestGenerator
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:208    .text.HAL_DMAEx_EnableMuxRequestGenerator:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:214    .text.HAL_DMAEx_EnableMuxRequestGenerator:00000000 HAL_DMAEx_EnableMuxRequestGenerator
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:261    .text.HAL_DMAEx_DisableMuxRequestGenerator:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:267    .text.HAL_DMAEx_DisableMuxRequestGenerator:00000000 HAL_DMAEx_DisableMuxRequestGenerator
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:314    .text.HAL_DMAEx_MUX_IRQHandler:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccRNvwdq.s:320    .text.HAL_DMAEx_MUX_IRQHandler:00000000 HAL_DMAEx_MUX_IRQHandler
 
 NO UNDEFINED SYMBOLS

@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include"input.h"
 #include "output.h"
+#include "lcd.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -92,6 +93,10 @@ int main(void)
   outputinit(GPIOC, GPIO_PIN_7);
   outputinit(GPIOB, GPIO_PIN_14);
 
+  lcd_init();
+
+  
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,19 +117,24 @@ int main(void)
     //   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14 | GPIO_PIN_7, GPIO_PIN_RESET);
     //   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, GPIO_PIN_RESET);
     // }
-    if(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_11) == GPIO_PIN_SET)
-    {
-      setpin(GPIOB, GPIO_PIN_14);
-      setpin(GPIOB, GPIO_PIN_7);
-      setpin(GPIOC, GPIO_PIN_7);
-    }
-    else
-    {
-       clearpin(GPIOB, GPIO_PIN_7);
-       clearpin(GPIOC, GPIO_PIN_7);
-       clearpin(GPIOB, GPIO_PIN_14);
-    }
+    // if(HAL_GPIO_ReadPin(GPIOE, GPIO_PIN_11) == GPIO_PIN_SET)
+    // {
+    //   setpin(GPIOB, GPIO_PIN_14);
+    //   setpin(GPIOB, GPIO_PIN_7);
+    //   setpin(GPIOC, GPIO_PIN_7);
+    // }
+    // else
+    // {
+    //    clearpin(GPIOB, GPIO_PIN_7);
+    //    clearpin(GPIOC, GPIO_PIN_7);
+    //    clearpin(GPIOB, GPIO_PIN_14);
+    // }
+    unsigned char data[] = "Lal";
+    lcd_display(data, 1);
+    lcd_display("Harrin Delina", 2);
+     
 }
+
   /* USER CODE END 3 */
 }
 

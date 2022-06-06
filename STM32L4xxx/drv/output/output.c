@@ -11,6 +11,18 @@ void outputinit(GPIO_TypeDef* GPIOx, uint16_t GPIO_PIN)
     {
         __HAL_RCC_GPIOC_CLK_ENABLE();
     }
+    else if (GPIOx == GPIOF)
+    {
+        __HAL_RCC_GPIOF_CLK_ENABLE();
+    }
+    else if(GPIOx == GPIOE)
+    {
+        __HAL_RCC_GPIOE_CLK_ENABLE();
+    }
+    else if(GPIOx == GPIOD)
+    {
+        __HAL_RCC_GPIOD_CLK_ENABLE();
+    }
     GPIO_InitTypeDef GPIO_Init;
 
     GPIO_Init.Pin = GPIO_PIN;
