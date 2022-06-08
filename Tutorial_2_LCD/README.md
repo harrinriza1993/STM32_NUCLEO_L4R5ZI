@@ -30,11 +30,11 @@ LCD pins should connected as below pins
 
 We have used 4-bit mode
 - Initialie the pis as output ()
-- Send Command
--- RS pin should be low
--- Command should send as MSB (nibble), enable pulse (on and off), LSB (nibble) and enable pulse (on and off)
-- Send Data
--- RS pin should be high
--- Command should send as MSB (nibble), enable pulse (on and off), LSB (nibble) and enable pulse (on and off)
+- Send Command  
+-- RS pin should be low  
+-- Command should send as MSB (nibble), enable pulse (on and off), LSB (nibble) and enable pulse (on and off)  
+- Send Data  
+-- RS pin should be high  
+-- Command should send as MSB (nibble), enable pulse (on and off), LSB (nibble) and enable pulse (on and off)  
 
 
