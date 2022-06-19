@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
   10:drv/output/output.c ****     else if(GPIOx == GPIOC)
   47              		.loc 1 10 10 is_stmt 1 view .LVU4
   48              		.loc 1 10 12 is_stmt 0 view .LVU5
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 2
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 2
 
 
   49 000a 304B     		ldr	r3, .L12+4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
   87              		.loc 1 8 9 view .LVU18
    8:drv/output/output.c ****     }
   88              		.loc 1 8 9 view .LVU19
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 3
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 3
 
 
   89 003e 03F17843 		add	r3, r3, #-134217728
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
  130              	.LCFI2:
  131              		.cfi_remember_state
  132              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 4
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 4
 
 
  133              		@ sp needed
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
  175 00a8 D6E7     		b	.L3
  176              	.L11:
   20:drv/output/output.c ****     }
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 5
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 5
 
 
  177              		.loc 1 20 9 view .LVU50
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
  225              		.cfi_offset 14, -4
   38:drv/output/output.c ****     HAL_GPIO_WritePin(GPIOx, GPIO_PIN, GPIO_PIN_SET);
  226              		.loc 1 38 5 is_stmt 1 view .LVU58
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 6
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 6
 
 
  227 0002 0122     		movs	r2, #1
@@ -347,18 +347,18 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 1
  267              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
  268              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4r5xx.h"
  269              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s 			page 7
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 output.c
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:20     .text.outputinit:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:26     .text.outputinit:00000000 outputinit
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:198    .text.outputinit:000000c8 $d
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:207    .text.setpin:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:213    .text.setpin:00000000 setpin
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:236    .text.clearpin:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccXOw0M9.s:242    .text.clearpin:00000000 clearpin
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:20     .text.outputinit:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:26     .text.outputinit:00000000 outputinit
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:198    .text.outputinit:000000c8 $d
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:207    .text.setpin:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:213    .text.setpin:00000000 setpin
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:236    .text.clearpin:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccPH09sf.s:242    .text.clearpin:00000000 clearpin
 
 UNDEFINED SYMBOLS
 HAL_GPIO_Init

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
   29:drv/lcd/lcd.c **** #define D7_PORT GPIOF
   30:drv/lcd/lcd.c **** #define RS_PORT GPIOF
   31:drv/lcd/lcd.c **** #define EN_PORT GPIOD
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 2
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 2
 
 
   32:drv/lcd/lcd.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
   86:drv/lcd/lcd.c ****   }
   87:drv/lcd/lcd.c **** }
   88:drv/lcd/lcd.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 3
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 3
 
 
   89:drv/lcd/lcd.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
   74              	.LVL4:
   75              	.LFB138:
   99:drv/lcd/lcd.c **** 
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 4
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 4
 
 
  100:drv/lcd/lcd.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  112:drv/lcd/lcd.c ****   HAL_GPIO_WritePin(D7_PORT, D7_PIN, (GPIO_PinState)(msb_nibble & 0x8));
  118              		.loc 1 112 3 view .LVU14
  119 0034 07F00802 		and	r2, r7, #8
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 5
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 5
 
 
  120 0038 4FF40051 		mov	r1, #8192
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  163              		.cfi_endproc
  164              	.LFE138:
  166              		.section	.text.send_command,"ax",%progbits
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 6
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 6
 
 
  167              		.align	1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  148:drv/lcd/lcd.c ****   write_data(cmd);
  198              		.loc 1 148 3 view .LVU28
  199 0016 2046     		mov	r0, r4
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 7
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 7
 
 
  200 0018 FFF7FEFF 		bl	write_data
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  248 001c 10BD     		pop	{r4, pc}
  249              	.L16:
  250 001e 00BF     		.align	2
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 8
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 8
 
 
  251              	.L15:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  301 0034 2846     		mov	r0, r5
  302 0036 FFF7FEFF 		bl	clearpin
  303              	.LVL33:
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 9
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 9
 
 
   55:drv/lcd/lcd.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  352              	.LVL41:
  353              	.LFB136:
   72:drv/lcd/lcd.c ****   if(line_selection == 1)
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 10
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 10
 
 
  354              		.loc 1 72 1 is_stmt 1 view -0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  395              		.loc 1 85 5 view .LVU64
   85:drv/lcd/lcd.c ****   }
  396              		.loc 1 85 14 is_stmt 0 view .LVU65
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 11
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 11
 
 
  397 0020 0134     		adds	r4, r4, #1
@@ -628,28 +628,28 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 1
  417              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  418              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  419              		.file 7 "drv/output/output.h"
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s 			page 12
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 lcd.c
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:20     .text.enable_pulse:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:25     .text.enable_pulse:00000000 enable_pulse
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:63     .text.enable_pulse:0000002c $d
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:68     .text.write_data:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:73     .text.write_data:00000000 write_data
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:161    .text.write_data:00000084 $d
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:167    .text.send_command:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:172    .text.send_command:00000000 send_command
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:207    .text.send_command:00000020 $d
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:212    .text.send_data:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:217    .text.send_data:00000000 send_data
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:252    .text.send_data:00000020 $d
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:257    .text.lcd_init:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:263    .text.lcd_init:00000000 lcd_init
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:338    .text.lcd_init:0000006c $d
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:345    .text.lcd_display:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccRFQfJk.s:351    .text.lcd_display:00000000 lcd_display
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:20     .text.enable_pulse:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:25     .text.enable_pulse:00000000 enable_pulse
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:63     .text.enable_pulse:0000002c $d
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:68     .text.write_data:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:73     .text.write_data:00000000 write_data
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:161    .text.write_data:00000084 $d
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:167    .text.send_command:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:172    .text.send_command:00000000 send_command
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:207    .text.send_command:00000020 $d
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:212    .text.send_data:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:217    .text.send_data:00000000 send_data
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:252    .text.send_data:00000020 $d
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:257    .text.lcd_init:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:263    .text.lcd_init:00000000 lcd_init
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:338    .text.lcd_init:0000006c $d
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:345    .text.lcd_display:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccS2Kfum.s:351    .text.lcd_display:00000000 lcd_display
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
