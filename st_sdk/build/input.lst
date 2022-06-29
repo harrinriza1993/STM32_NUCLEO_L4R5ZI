@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
   24              		.thumb_func
   26              	input_init:
   27              	.LVL0:
-  28              	.LFB132:
+  28              	.LFB292:
   29              		.file 1 "drv/input/input.c"
    1:drv/input/input.c **** #include "input.h"
    2:drv/input/input.c **** 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
    8:drv/input/input.c ****     }
    9:drv/input/input.c **** 
   10:drv/input/input.c ****     GPIO_InitTypeDef GPIO_Init;
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 2
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s 			page 2
 
 
   49              		.loc 1 10 5 discriminator 1 view .LVU5
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
   91 0032 03F01003 		and	r3, r3, #16
   92 0036 0093     		str	r3, [sp]
    7:drv/input/input.c ****     }
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 3
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s 			page 3
 
 
   93              		.loc 1 7 9 view .LVU21
@@ -130,7 +130,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
   99 003c 00100048 		.word	1207963648
  100              	.LBE2:
  101              		.cfi_endproc
- 102              	.LFE132:
+ 102              	.LFE292:
  104              		.section	.text.read_pin,"ax",%progbits
  105              		.align	1
  106              		.global	read_pin
@@ -139,7 +139,7 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
  109              		.thumb_func
  111              	read_pin:
  112              	.LVL4:
- 113              	.LFB133:
+ 113              	.LFB293:
   19:drv/input/input.c **** 
   20:drv/input/input.c **** GPIO_PinState read_pin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
   21:drv/input/input.c **** {
@@ -162,23 +162,23 @@ ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 1
  128              		.loc 1 23 1 view .LVU26
  129 0006 08BD     		pop	{r3, pc}
  130              		.cfi_endproc
- 131              	.LFE133:
+ 131              	.LFE293:
  133              		.text
  134              	.Letext0:
  135              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
  136              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
  137              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4r5xx.h"
  138              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s 			page 4
+ARM GAS  C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 input.c
-C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s:20     .text.input_init:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s:26     .text.input_init:00000000 input_init
-C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s:99     .text.input_init:0000003c $d
-C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s:105    .text.read_pin:00000000 $t
-C:\Users\lalbo\AppData\Local\Temp\ccx2y7lU.s:111    .text.read_pin:00000000 read_pin
+C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s:20     .text.input_init:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s:26     .text.input_init:00000000 input_init
+C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s:99     .text.input_init:0000003c $d
+C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s:105    .text.read_pin:00000000 $t
+C:\Users\lalbo\AppData\Local\Temp\ccapMi55.s:111    .text.read_pin:00000000 read_pin
 
 UNDEFINED SYMBOLS
 HAL_GPIO_Init
