@@ -3,15 +3,20 @@
 #### Step 1 : Configure the clock
 
 - Enable the peripheral clock for GPIOX Port (where x is A or B or C etc). The peripheral clock for GPIOX (AHB2) can be found in the following figure.
+- 
 ![](images/PeripheralClock.png)
+
 - Find the address of the RCC_AHB2ENR register [RCC_BASE_ADDRESS + RCC_AHB2ENR_OFFSET] (0x40021000 + 0x4C)
+
 ```sh
 #define RCC_BASE_ADDRESS 0x40021000 // Look at the RCC regiser map
 #define RCC_AHB2ENR_OFFSET 0x4C
 #define RCC_AHB1ENR (*((volatile uint32_t*) (RCC_BASE_ADDRESS + RCC_AHB2ENR_OFFSET)))
 ```
 ![](images/RCCRegisterMap.png)
+
 ![](images/RCCAHb2ENr.png)
+
 - Example, If we set PA0 as output pin then 0th bit of the register (RCC_AHB2ENR) should be set to 1.
 ```sh
 RCC_AHB1ENR = RCC_AHB1ENR | (1 << 0);
