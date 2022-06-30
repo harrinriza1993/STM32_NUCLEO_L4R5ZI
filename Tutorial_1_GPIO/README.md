@@ -3,7 +3,7 @@
 #### Step 1 : Configure the clock
 
 - Enable the peripheral clock for GPIOX Port (where x is A or B or C etc). The peripheral clock for GPIOX (AHB2) can be found in the following figure.
-- 
+
 ![](images/PeripheralClock.png)
 
 - Find the address of the RCC_AHB2ENR register [RCC_BASE_ADDRESS + RCC_AHB2ENR_OFFSET] (0x40021000 + 0x4C)
@@ -19,18 +19,57 @@
 
 - Example, If we set PA0 as output pin then 0th bit of the register (RCC_AHB2ENR) should be set to 1.
 ```sh
-RCC_AHB1ENR = RCC_AHB1ENR | (1 << 0);
+RCC_AHB2ENR = RCC_AHB2ENR | (1 << 0);
 ```
 
-#### Step 2 : Configure pin as output
+#### Step 2 : Configure pin as output  
+
+
+- `GPIOx_MODER` is used to configure the pin as output and we have to write `01` as shown in the following figure.
 ![](images/GPIOx_MODER.png)
-    To confiure the pin as output pin  GPIOx_MODER register is used. Set the bit(make the bit to 1) which is double the number of pin number and clear the bit(make the bit to 0) which is  the next number to the double the number of pin number. For examble if we take a pin PA5 as output pin then double the number of 5 is 10 and the next number is 11. In the diagram it is clerly mentioned if we have to configure the pin to output we have to make 11th bit  to 0 and 10th bit to 1. The address of the register is found according to the port used in the pin. Base address of GPIO changes according to the port used in pin , offset address is same. If it is A port then add GPIOA base address + GPIOx offset address( 0x48000000 + 0x00). 
+- The register adress offsets and reset values are in the following table
+
+- Find the address of the GPIOx regiser [GPIOx_BASE + GPIOx_OFFSET] where x = A, B ..... I
+- For examble if the pin is PA0 then
+
+```sh
+#define  GPIOA_BASE_ADDRESS//  0x48000000
+#define GPIOx_MODER_OFFSET// 0x00
+#define GPIOA_MODER (*((volatile uint32_t*) (GPIOA_BASE_ADDRESS + GPIOx_MODER_OFFSET)))
+```
+
+
+
+- The bit is set
+- From the below digram it is known that output mode is set according to the pin number of the pin which we use as output. 
+- Example if PA0 is set as output pin, then 0th bit (0 + 0) and 1st bit(0 + 0 + 1) should be set as output mode.
+
+
+```sh
+ GPIOA_MODER = GPIOA_MODER | (1 << (pin_number + pin_number));
+ GPIOA_MODER = GPIOA_MODER &  ~(1 << (pin_number + pin_number + 1)); 
+```
+
 #### Step 3 : Set / clear the pin
+- To set / clear the pin GPIOX_BSRR register is used. The register adress offsets and reset values are in the following table
+- 
+- Find the address of the GPIOx_BSRR regiser [GPIOx_BASE_ADDRESS + GPIO_BSRR_OFFSET] where x = A, B ..... I
+- For examble if the pin is PA0 then
+```sh
+#define  GPIOA_BASE_ADDRESS//  0x48000000
+#define GPIO_BSRR_OFFSET// 0x18
+#define GPIOA_BSRR (*((volatile uint32_t*) (GPIOA_BASE_ADDRESS + GPIO_BSRR_OFFSET)))
+```
+![](images/RCCRegisterMap.png)
+
+-  Example,To set the bit PA0  then 0th bit of the register (GPIOx_BSRR) should be set to 1.
+-  To clear the bit, the 0th bit of the register (GPIOx_BSRR) should be set to 0 and 23rd (0 + 16 th bit) bit should be set to 1
+
 ![](images/GPIOx_BSRR.png)
-   To Set the pin,  that means to make led on  set the bit in GPIOx_BSRR register. Depending on the pin number the bit is made  on.For example if we take pin PB7, then 7th bit in the register should be 1.
-   If we need to make led off, make the corresponding bit with the pin number to 0 and set the bit (pin number + 16 th bit) to 1. For example to make PB7 to off set the 7th bit to 0 and 23rd(7 + 16) bit to 1. The address of register is found by adding GPIO Base address and GPIO BSRR offset address. Base address changes but offset remains same for all port. If it is port c then add GPIOC base address and GPIO BSRR offset address( 0x48000800 + 0x18).
-   
 
-
-
+  ```sh
+ GPIOA_BSRR = GPIOA_BSRR | (1 << pin_number);// To set the pin
+ GPIOA_BSRR = GPIOA_BSRR & ~(1 << pin_number);// To clear the pin
+ GPIOA_BSRR = GPIOA_BSRR | (1 << (pin_number + 16));
+```
 
